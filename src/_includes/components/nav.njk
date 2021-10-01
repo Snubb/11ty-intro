@@ -1,3 +1,13 @@
 <nav>
-    <h1>thjis do be nänv</h1>
+    <h1>thjis do be nänv :)</h1>
+    <ul class="funny-lista">
+        {% for item in navigation.items %}
+        <li>
+            <a href="{{ item.url }}">
+             {{ item.title }}
+            </a>  
+        </li>
+  
+    {% endfor %}
+</ul>
 </nav>

@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "title": "Home", 
+            "url": "/"
+        }, 
+        {
+            "title": "Github profile", 
+            "url": "/github"
+        },
+        {
+            "title": "Secret stash ;)",
+            "url": "/homework"
+        },
+        {
+            "title": "Aboot",
+            "url": "/aboot"
+        },
+        {
+            "title": "dogs",
+            "url": "/dog"
+        }
+    ]
+}

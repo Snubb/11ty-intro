@@ -1,0 +1,33 @@
+$bg-color: #ffff00;
+
+body {
+    background-color: $bg-color;
+}
+.funny-lista {
+    list-style: none;
+    
+}
+.template {
+    width: 22rem;
+    position: absolute;
+    z-index: 0;
+}
+.kirb {
+    display:flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
+    z-index: -1;
+}
+.kirb-card {
+    align-items: center;
+    margin: auto;
+    width: 30%;
+}
+.kirb-text {
+    position: relative;
+    color: white;
+    z-index: 1;
+    margin: auto;
+    text-align:center;
+}
